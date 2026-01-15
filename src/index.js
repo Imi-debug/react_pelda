@@ -25,13 +25,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import AllapotPelda from './components/AllapotPelda.jsx';
+
+import Bejelentkez from './components/randi/Bejelentkez.jsx';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <AllapotPelda />
-  </React.StrictMode>
+  
+    <Bejelentkez />
+  
 );
 
 
