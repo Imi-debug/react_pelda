@@ -6,7 +6,7 @@ function AllapotPelda() {
         <>
         <p>A kedvenc gyümölcsöm: {gyumolcs}</p>
         <p>hmm, meggondoltam magam...</p>
-        {setGyumolcs("barack")}
+        <button onClick={() => setGyumolcs("banán")}>Banánra váltás</button>
         <p>Mostantol a kedvenc gyumolcsom: {gyumolcs}</p>
 
         </>

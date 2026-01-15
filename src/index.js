@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -18,6 +18,19 @@ root.render(
     <Header cim={cim} />
     <Content jatekcim={jatekcim} adat1={adat1} adat2={adat2} adat3={adat3} adat4={adat4} />
     <Footer email={email} />
+  </React.StrictMode>
+);*/
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+import AllapotPelda from './components/AllapotPelda.jsx';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <AllapotPelda />
   </React.StrictMode>
 );
 
